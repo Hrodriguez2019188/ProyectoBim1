@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "COMMENTS",
+    "dateExported": "2024-03-04T05:22:54.104Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "27166adb-9ed2-4eca-8bc8-879d1bfe5163",
+            "colId": "ff3e0452-b8dd-42ac-9a1b-e69ba0f15106",
+            "containerId": "",
+            "name": "AgregarComentario",
+            "url": "http://localhost:3000/api/v1/post/comment/65e20c14da6d87fd236a2fee",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T05:20:43.860Z",
+            "modified": "2024-03-04T05:22:36.887Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1NTk2YjNjMjQ1YTlkZWVmZDc2ZDEiLCJpYXQiOjE3MDk1Mjk3MjMsImV4cCI6MTcwOTUzMzMyM30.bJXr6tOYFBJauVd_fZO4s2lpVkPYkyPhRBYBDmdA2MM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"postId\": \"65e559c78fbce054cbaf5a9e\",\n    \"titulo\":\"y este random?\",\n    \"descripcion\":\"eso es low elo\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

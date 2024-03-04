@@ -1,0 +1,33 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "USER EDIT",
+    "dateExported": "2024-03-04T05:24:32.484Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "edc0d26d-f419-48ea-ac3e-32c8a203c487",
+            "colId": "085db629-423c-4944-87df-29b546f5fc6c",
+            "containerId": "",
+            "name": "EditarUsuario (token usuario)",
+            "url": "http://localhost:3000/api/v1/users/65e559613c245a9deefd76ce",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-03-04T05:23:03.553Z",
+            "modified": "2024-03-04T05:24:15.517Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1NTk2MTNjMjQ1YTlkZWVmZDc2Y2UiLCJpYXQiOjE3MDk1Mjk4MDcsImV4cCI6MTcwOTUzMzQwN30.hfExkaUy1nVa4V8xdzPw26bsuDpEF2WEGKV9CiVqOoM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameUser\": \"Leonel\",\n  \"email\": \"Leonel@kinal.edu.gt\",\n  \"oldPassword\": \"654321\",\n  \"newPassword\": \"654321\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
