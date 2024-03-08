@@ -1,0 +1,77 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "categorias",
+    "dateExported": "2024-03-08T13:18:48.604Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4ebebc3b-7638-4a2e-9966-a424f50f5003",
+            "colId": "a887fe33-9040-40d1-aded-c726413c1d24",
+            "containerId": "",
+            "name": "agrege su categoria",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T03:01:54.254Z",
+            "modified": "2024-03-08T13:17:41.010Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"AINSHVA\",\n  \"descripcion\": \"Leche wiehogowhgiow\",\n  \"idUsuario\": \"65eb0febfda821e5e2f3d849\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "05353dfa-5c64-4bb0-bae6-2aa72ce3ff55",
+            "colId": "a887fe33-9040-40d1-aded-c726413c1d24",
+            "containerId": "",
+            "name": "get categoria",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T03:02:09.671Z",
+            "modified": "2024-03-08T03:02:09.671Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0f8c22b1-e710-40e7-b113-18ade47c2db0",
+            "colId": "a887fe33-9040-40d1-aded-c726413c1d24",
+            "containerId": "",
+            "name": "edite su categoria",
+            "url": "http://localhost:3000/api/v1/categoria/put/65eb0ff5fda821e5e2f3d84c",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-08T04:47:14.514Z",
+            "modified": "2024-03-08T13:18:25.456Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"prueba de roles\",\n  \"descripcion\": \"funciona plis \",\n  \"idUsuario\": \"65eb0febfda821e5e2f3d849\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "e6a22dc4-e1d8-45b5-951c-0c2c7efc2bed",
+            "colId": "a887fe33-9040-40d1-aded-c726413c1d24",
+            "containerId": "",
+            "name": "elimine su categoria ",
+            "url": "http://localhost:3000/api/v1/categoria/65ea88f044000d0f5f8cc6ac",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-08T04:53:23.895Z",
+            "modified": "2024-03-08T04:53:23.895Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

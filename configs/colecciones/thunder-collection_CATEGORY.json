@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CATEGORY",
+    "dateExported": "2024-03-08T16:47:59.519Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e2ef146a-31d0-4aeb-9760-fd75665269ef",
+            "colId": "9f243108-650d-4187-b7f7-4378ec946803",
+            "containerId": "",
+            "name": "PostCategory",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-08T15:12:46.123Z",
+            "modified": "2024-03-08T15:12:46.123Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"AINSHVA\",\n  \"descripcion\": \"Leche wiehogowhgiow\",\n  \"idUsuario\": \"65eb0febfda821e5e2f3d849\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5d8a11b4-97ea-4324-b64d-c11fae3a1ca6",
+            "colId": "9f243108-650d-4187-b7f7-4378ec946803",
+            "containerId": "",
+            "name": "GetCategory",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T15:12:46.124Z",
+            "modified": "2024-03-08T15:12:46.124Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c7ad3b36-dd2f-4b29-b197-43dbcabc40b3",
+            "colId": "9f243108-650d-4187-b7f7-4378ec946803",
+            "containerId": "",
+            "name": "EditCategory",
+            "url": "http://localhost:3000/api/v1/categoria/put/65eb0ff5fda821e5e2f3d84c",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-08T15:12:46.125Z",
+            "modified": "2024-03-08T15:12:46.125Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"prueba de roles\",\n  \"descripcion\": \"funciona plis \",\n  \"idUsuario\": \"65eb0febfda821e5e2f3d849\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ab6bd9b4-ccc0-4013-ba69-36d331366f41",
+            "colId": "9f243108-650d-4187-b7f7-4378ec946803",
+            "containerId": "",
+            "name": "DeleteCategory",
+            "url": "http://localhost:3000/api/v1/categoria/65ea88f044000d0f5f8cc6ac",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-08T15:12:46.126Z",
+            "modified": "2024-03-08T15:12:46.126Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

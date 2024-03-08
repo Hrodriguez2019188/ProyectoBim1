@@ -21,7 +21,7 @@ export const userPutAdmin = async (req, res) => {
                 msg: 'Usuario no encontrado',
             });
         }
-
+        
         if (nameUser) {
             usuario.nameUser = nameUser;
         }
