@@ -7,7 +7,6 @@ import morgan from 'morgan'
 import { dbConnection } from './mongo.js';
 import userRoutes from '../src/user/user.routes.js';
 import authRoutes from '../src/auth/auth.routes.js';
-import postRoutes from '../src/post/post.routes.js';
 
 class Server{
     constructor(){
@@ -36,7 +35,6 @@ class Server{
     routes(){
         this.app.use(this.usuarioPath, userRoutes);
         this.app.use(this.authPath, authRoutes);
-        this.app.use(this.postPath, postRoutes);
     }
 
     listen(){
