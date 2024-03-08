@@ -1,46 +1,48 @@
 {
     "client": "Thunder Client",
     "collectionName": "LOGIN",
-    "dateExported": "2024-03-04T05:17:52.339Z",
+    "dateExported": "2024-03-08T01:57:41.597Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "34955dcc-8696-43e2-a6c1-09f4c658cc56",
-            "colId": "7e76192d-788a-42e2-a8cc-83270d40397d",
+            "_id": "33723f04-6b42-4564-b39b-ac0f2bf7018f",
+            "colId": "6d6ded43-cadd-4cc8-a9d1-251906019114",
             "containerId": "",
             "name": "Loguearse",
             "url": "http://localhost:3000/api/v1/auth/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-04T05:16:44.313Z",
-            "modified": "2024-03-04T05:17:12.832Z",
+            "created": "2024-03-08T00:42:35.929Z",
+            "modified": "2024-03-08T01:54:42.211Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"mapache@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "raw": "{\n  \"email\": \"Agente2@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
                 "form": []
             },
+            "reqType": "post",
             "tests": []
         },
         {
-            "_id": "5c2b0211-e5fa-4458-b5ad-963892bd93e7",
-            "colId": "7e76192d-788a-42e2-a8cc-83270d40397d",
+            "_id": "75de473d-f341-46a4-8195-ad64349ece57",
+            "colId": "6d6ded43-cadd-4cc8-a9d1-251906019114",
             "containerId": "",
             "name": "Registrarse",
             "url": "http://localhost:3000/api/v1/auth/registrarse",
             "method": "POST",
             "sortNum": 30000,
-            "created": "2024-03-04T05:16:44.314Z",
-            "modified": "2024-03-04T05:17:37.503Z",
+            "created": "2024-03-08T00:42:35.930Z",
+            "modified": "2024-03-08T01:51:36.836Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nameUser\": \"Pedro\",\n  \"email\": \"Pedro@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "raw": "{\n  \"nameUser\": \"Agente3\",\n  \"email\": \"Agente3@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
                 "form": []
             },
+            "reqType": "post",
             "tests": []
         }
     ]

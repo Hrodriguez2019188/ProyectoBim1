@@ -1,30 +1,55 @@
 {
     "client": "Thunder Client",
     "collectionName": "USER EDIT",
-    "dateExported": "2024-03-04T05:24:32.484Z",
+    "dateExported": "2024-03-08T01:57:52.916Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "edc0d26d-f419-48ea-ac3e-32c8a203c487",
-            "colId": "085db629-423c-4944-87df-29b546f5fc6c",
+            "_id": "6b4f9f49-675b-44fb-8c9f-1fce89fee571",
+            "colId": "4f4fc48f-3e3c-4f58-9f76-3dce45a7a4c7",
             "containerId": "",
-            "name": "EditarUsuario (token usuario)",
-            "url": "http://localhost:3000/api/v1/users/65e559613c245a9deefd76ce",
+            "name": "EditUser ADMIN",
+            "url": "http://localhost:3000/api/v1/users/65ea5f2f00d6645b29635e05",
             "method": "PUT",
             "sortNum": 60000,
-            "created": "2024-03-04T05:23:03.553Z",
-            "modified": "2024-03-04T05:24:15.517Z",
+            "created": "2024-03-08T00:44:12.254Z",
+            "modified": "2024-03-08T01:19:58.807Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1NTk2MTNjMjQ1YTlkZWVmZDc2Y2UiLCJpYXQiOjE3MDk1Mjk4MDcsImV4cCI6MTcwOTUzMzQwN30.hfExkaUy1nVa4V8xdzPw26bsuDpEF2WEGKV9CiVqOoM"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWY1MTAwZDY2NDViMjk2MzVlMDkiLCJpYXQiOjE3MDk4NTkzMzUsImV4cCI6MTcwOTg2MjkzNX0.OM_Qh3DCA1i9iktFCbj_ZF-T46B8aB1WSXtasiODQ6U"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nameUser\": \"Leonel\",\n  \"email\": \"Leonel@kinal.edu.gt\",\n  \"oldPassword\": \"654321\",\n  \"newPassword\": \"654321\"\n}",
+                "raw": "{\n  \"nameUser\": \"Perro\",\n  \"email\": \"Perro@kinal.edu.gt\",\n  \"password\": \"123456\",\n  \"role\": \"ADMIN_ROLE\",\n  \"estado\": \"true\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "tests": []
+        },
+        {
+            "_id": "a3d78d0a-5373-4bc0-b676-a28a2c07aa5e",
+            "colId": "4f4fc48f-3e3c-4f58-9f76-3dce45a7a4c7",
+            "containerId": "",
+            "name": "EditUser ClientsOnly",
+            "url": "http://localhost:3000/api/v1/users/put/65ea5f2f00d6645b29635e05",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-03-08T01:23:18.509Z",
+            "modified": "2024-03-08T01:28:50.002Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWYyZjAwZDY2NDViMjk2MzVlMDUiLCJpYXQiOjE3MDk4NjEzMDIsImV4cCI6MTcwOTg2NDkwMn0.Yqsg6CzWgmyuL-K-ICa1wu6YqGOMEIWh--9hw0nf9Ok"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameUser\": \"mapache\",\n  \"oldPassword\": \"123456\",\n  \"newPassword\": \"123456\"\n}",
                 "form": []
             },
             "tests": []

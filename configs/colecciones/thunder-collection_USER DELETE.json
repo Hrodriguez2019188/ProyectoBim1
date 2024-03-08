@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "USER DELETE",
+    "dateExported": "2024-03-08T01:57:58.091Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b2dab7f1-8c65-489d-80b7-f5900114ca3b",
+            "colId": "88a3ddd4-10a2-4d68-8e76-aeac5f8323b2",
+            "containerId": "",
+            "name": "DeleteUser",
+            "url": "http://localhost:3000/api/v1/users/65ea6f23b0d102491f4f79cb",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-03-08T01:31:47.256Z",
+            "modified": "2024-03-08T01:54:47.952Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWY1MTAwZDY2NDViMjk2MzVlMDkiLCJpYXQiOjE3MDk4NjIxODYsImV4cCI6MTcwOTg2NTc4Nn0.qyuW3-iPx1O8COMPQOcx3ncIhG5w5VvuMIDWb5akuRI"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
