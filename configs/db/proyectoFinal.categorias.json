@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "65f1fbe53b04a8c9a177e829"
+  },
+  "nameCat": "Lacteos",
+  "descripcion": "Categoria para productos lacteos",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f1fbf93b04a8c9a177e82c"
+  },
+  "nameCat": "Carnes",
+  "descripcion": "Categoria para productos de carne",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f1fc0a3b04a8c9a177e82f"
+  },
+  "nameCat": "Bebidas",
+  "descripcion": "Categoria para productos bebibles",
+  "estado": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f1fc293b04a8c9a177e834"
+  },
+  "nameCat": "Prueba Edit",
+  "descripcion": "este es un boddy de prueba",
+  "estado": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f254be19ec6363841abe96"
+  },
+  "nameCat": "Default",
+  "descripcion": "esta es la categoria default",
+  "estado": true,
+  "__v": 0
+}]

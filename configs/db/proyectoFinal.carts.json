@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "65f2050bb8bce763e4490885"
+  },
+  "cDate": {
+    "$date": "2000-05-12T00:00:00.000Z"
+  },
+  "user": {
+    "$oid": "65f1f77c3b04a8c9a177e81c"
+  },
+  "product": {
+    "$oid": "65f1fdac79c9e016ccc3d112"
+  },
+  "quantity": "1",
+  "status": "EXISTS",
+  "__v": 0
+}]

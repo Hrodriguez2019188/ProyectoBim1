@@ -1,0 +1,420 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ProyectoFinal",
+    "dateExported": "2024-03-14T07:23:26.473Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "USER",
+            "containerId": "",
+            "created": "2024-03-14T07:14:32.823Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2dd87307-10e3-4abd-a412-df7de6ab23d8",
+            "name": "CATEGORY",
+            "containerId": "",
+            "created": "2024-03-14T07:16:03.478Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "PRODUCTS",
+            "containerId": "",
+            "created": "2024-03-14T07:16:35.585Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "e4c9cffa-bb1f-44dc-ac6f-82108c688f86",
+            "name": "CART",
+            "containerId": "",
+            "created": "2024-03-14T07:17:34.739Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "bf238839-e308-4165-8ace-838bccb1c982",
+            "name": "BILL",
+            "containerId": "",
+            "created": "2024-03-14T07:19:34.079Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "14bcf8cf-d4f8-4c8a-8658-079a2d2882d6",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "Loguearse",
+            "url": "http://localhost:3000/api/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-14T07:15:23.000Z",
+            "modified": "2024-03-14T07:15:23.000Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"otto@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "81b1fd2f-74e1-4357-828d-119c37284842",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "2dd87307-10e3-4abd-a412-df7de6ab23d8",
+            "name": "PostCategory",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-14T07:16:06.896Z",
+            "modified": "2024-03-14T07:16:06.896Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"PRUEBADELETE\",\n  \"descripcion\": \"esta categoria es una prueba\",\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4c4a6586-4b68-4347-beb7-fc4a5c3c3b03",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "PostProduct",
+            "url": "http://localhost:3000/api/v1/productos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-14T07:16:57.169Z",
+            "modified": "2024-03-14T07:16:57.169Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"PruebaProducto\",\n  \"price\": \"10\",\n  \"category\": \"Lacteos\",\n  \"stock\": \"115\",\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "300619fb-9b47-4432-8a40-10cf44f3e038",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "e4c9cffa-bb1f-44dc-ac6f-82108c688f86",
+            "name": "PostCart",
+            "url": "http://localhost:3000/finalAPI/v1/cart/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-14T07:17:37.751Z",
+            "modified": "2024-03-14T07:17:37.751Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxZjc3YzNiMDRhOGM5YTE3N2U4MWMiLCJpYXQiOjE3MTAzNTk1ODEsImV4cCI6MTcxMDM2MzE4MX0.fDvby_9JHOdZjWyw2ATu0rjyy50yl95jdMt9U5cOmPQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cDate\": \"2000-05-12\",\n  \"user\": \"65f1f77c3b04a8c9a177e81c\",\n  \"product\": \"queso\",\n  \"quantity\": \"1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a35de312-826e-4666-83b2-ddc77a5002a6",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "bf238839-e308-4165-8ace-838bccb1c982",
+            "name": "generar Factura",
+            "url": "http://localhost:3000/finalAPI/v1/bill/buyBill",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-14T07:19:39.395Z",
+            "modified": "2024-03-14T07:19:39.395Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYyN2QzZGZhYjM3OTkxOWJmYTlkMDYiLCJpYXQiOjE3MTAzOTA1OTYsImV4cCI6MTcxMDM5NDE5Nn0.WYwr2uJ_4N_eaUn9SHGurnWYX1bnW5_wmAgEgkYZu4g"
+                },
+                {
+                    "name": "Token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYyN2QzZGZhYjM3OTkxOWJmYTlkMDYiLCJpYXQiOjE3MTAzOTA1OTYsImV4cCI6MTcxMDM5NDE5Nn0.WYwr2uJ_4N_eaUn9SHGurnWYX1bnW5_wmAgEgkYZu4g"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameU\": \"cliente\",\n  \"idUsuario\":\"65f27d3dfab379919bfa9d06\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea8585b3-8bf5-4cc0-8b4d-2c9a8d4b5965",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "Registrarse",
+            "url": "http://localhost:3000/api/v1/auth/registrarse",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-14T07:15:25.086Z",
+            "modified": "2024-03-14T07:15:25.086Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameUser\": \"mapache\",\n  \"email\": \"mapache@kinal.edu.gt\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6485ff5a-4bf8-4d4d-b595-7597bb6c0804",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "2dd87307-10e3-4abd-a412-df7de6ab23d8",
+            "name": "GetCategory",
+            "url": "http://localhost:3000/api/v1/categoria",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-14T07:16:08.955Z",
+            "modified": "2024-03-14T07:16:08.955Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b46ef01d-0da2-4e89-bf8c-e530b718d274",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "GetProducts",
+            "url": "http://localhost:3000/api/v1/productos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-14T07:16:59.044Z",
+            "modified": "2024-03-14T07:16:59.045Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f48fe5d2-a638-4d29-8990-d22ba88e7852",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "e4c9cffa-bb1f-44dc-ac6f-82108c688f86",
+            "name": "DeleteCart",
+            "url": "http://localhost:3000/finalAPI/v1/cart/delete/65f20510b8bce763e449088b",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-03-14T07:17:38.904Z",
+            "modified": "2024-03-14T07:17:38.904Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYxZjc3YzNiMDRhOGM5YTE3N2U4MWMiLCJpYXQiOjE3MTAzNTk1ODEsImV4cCI6MTcxMDM2MzE4MX0.fDvby_9JHOdZjWyw2ATu0rjyy50yl95jdMt9U5cOmPQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userID\":\"65f1f77c3b04a8c9a177e81c\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a68a4b9b-c2d6-4697-98d7-f50eba15656f",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "bf238839-e308-4165-8ace-838bccb1c982",
+            "name": "Editar Factura",
+            "url": "http://localhost:3000/finalAPI/v1/bill/billChange/65f2633ea1bc7bfa54b08555",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-14T07:19:40.900Z",
+            "modified": "2024-03-14T07:19:40.900Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwZmM3OGNmMDBkZjk4NTBjMjY3NTMiLCJpYXQiOjE3MTAzODgyMjAsImV4cCI6MTcxMDM5NTQyMH0.yWQJDb4ale90DAzQupW8PjsJMhAi-iXEAzPexaV_1SU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cartQuant\": \"6\",\n  \"userID\": \"65f0fc78cf00df9850c26753\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c5f2a662-4417-4dda-b768-4fd018f74e4b",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "DeleteUser",
+            "url": "http://localhost:3000/api/v1/users/65ea6f23b0d102491f4f79cb",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-14T07:15:36.996Z",
+            "modified": "2024-03-14T07:15:36.996Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWY1MTAwZDY2NDViMjk2MzVlMDkiLCJpYXQiOjE3MDk4NjIxODYsImV4cCI6MTcwOTg2NTc4Nn0.qyuW3-iPx1O8COMPQOcx3ncIhG5w5VvuMIDWb5akuRI"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "09f8f426-a50f-477e-930e-26261f1d7a7c",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "2dd87307-10e3-4abd-a412-df7de6ab23d8",
+            "name": "EditCategory",
+            "url": "http://localhost:3000/api/v1/categoria/put/65f1fc293b04a8c9a177e834",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-14T07:16:10.828Z",
+            "modified": "2024-03-14T07:16:10.828Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCat\": \"Prueba Edit\",\n  \"descripcion\": \"este es un boddy de prueba\",\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "60f01883-cc59-41c6-b03b-4c39ab89d308",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "GetProductByCategory",
+            "url": "http://localhost:3000/api/v1/productos/Lacteos",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-14T07:17:01.646Z",
+            "modified": "2024-03-14T07:17:01.646Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c6c0e706-2e64-454d-9f67-724f2f9a4fec",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "EditUser ADMIN",
+            "url": "http://localhost:3000/api/v1/users/65ea5f2f00d6645b29635e05",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-14T07:15:40.581Z",
+            "modified": "2024-03-14T07:15:40.581Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWY1MTAwZDY2NDViMjk2MzVlMDkiLCJpYXQiOjE3MDk4NTkzMzUsImV4cCI6MTcwOTg2MjkzNX0.OM_Qh3DCA1i9iktFCbj_ZF-T46B8aB1WSXtasiODQ6U"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameUser\": \"Perro\",\n  \"email\": \"Perro@kinal.edu.gt\",\n  \"password\": \"123456\",\n  \"role\": \"ADMIN_ROLE\",\n  \"estado\": \"true\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "24439283-11a2-4a8b-8c14-1f3a5d49287d",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "2dd87307-10e3-4abd-a412-df7de6ab23d8",
+            "name": "DeleteCategory",
+            "url": "http://localhost:3000/api/v1/categoria/65f1fc293b04a8c9a177e834",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-14T07:16:12.792Z",
+            "modified": "2024-03-14T07:16:12.792Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4ea7eabb-9b9f-491c-8da7-ab9cf67918d3",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "PutProduct",
+            "url": "http://localhost:3000/api/v1/productos/65f1fdac79c9e016ccc3d112",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-14T07:17:04.190Z",
+            "modified": "2024-03-14T07:17:04.190Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Leche\",\n  \"price\": \"20.00\",\n  \"category\": \"65f1fbe53b04a8c9a177e829\",\n  \"stock\": \"50\",\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "083a83dc-1f0f-4c15-affc-7f9fcabcfd13",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "248d4261-9dc7-4df4-8b13-5204b72c430c",
+            "name": "EditUser ClientsOnly",
+            "url": "http://localhost:3000/api/v1/users/put/65ea5f2f00d6645b29635e05",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-14T07:15:45.169Z",
+            "modified": "2024-03-14T07:15:45.169Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWVhNWYyZjAwZDY2NDViMjk2MzVlMDUiLCJpYXQiOjE3MDk4NjEzMDIsImV4cCI6MTcwOTg2NDkwMn0.Yqsg6CzWgmyuL-K-ICa1wu6YqGOMEIWh--9hw0nf9Ok"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameUser\": \"mapache\",\n  \"oldPassword\": \"123456\",\n  \"newPassword\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "82133967-c4d8-492f-a92c-040e285646e2",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "DeleteProduct",
+            "url": "http://localhost:3000/api/v1/productos/65f201ac1d4bae6d5b8f80fe",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-03-14T07:17:07.210Z",
+            "modified": "2024-03-14T07:17:07.210Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idUsuario\": \"65f1f75a3b04a8c9a177e810\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "dc91af68-7201-4735-a2d5-9a9b1d5b2138",
+            "colId": "85a98b5a-cc67-459d-b1d4-45755d8c7b01",
+            "containerId": "5b5382e1-b85d-4452-aeb0-347f04f1ff8c",
+            "name": "GetProductsByName",
+            "url": "http://localhost:3000/api/v1/productos/queso",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-14T07:17:09.851Z",
+            "modified": "2024-03-14T07:17:09.851Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "65f1fdac79c9e016ccc3d112"
+  },
+  "name": "Leche",
+  "price": "20.00",
+  "category": [
+    {
+      "$oid": "65f1fbe53b04a8c9a177e829"
+    }
+  ],
+  "stock": "50",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f200d1ee45ba3f79aca2a9"
+  },
+  "name": "queso",
+  "price": "10.50",
+  "category": [
+    {
+      "$oid": "65f1fbe53b04a8c9a177e829"
+    }
+  ],
+  "stock": "55",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f201ac1d4bae6d5b8f80fe"
+  },
+  "name": "PruebaProducto",
+  "price": "10",
+  "category": [
+    {
+      "$oid": "65f1fbe53b04a8c9a177e829"
+    }
+  ],
+  "stock": "115",
+  "status": false,
+  "__v": 0
+}]

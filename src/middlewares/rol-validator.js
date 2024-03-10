@@ -4,11 +4,7 @@ export const validarRol = async (req, res, next) => {
         const { ...resto } = req.body; 
         
         try {
-
             let idUsuario = resto.idUsuario;
-
-            
-
             const usuario = await User.findById(idUsuario);
             console.log(usuario.role);
             
